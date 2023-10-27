@@ -1,0 +1,33 @@
+{
+  "name": "dashboard",
+  "version": "1.0.1",
+  "description": "This project was created by Muth80",
+  "main": "app.js",
+  "scripts": {
+    "test": "react-scrips-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muth80/alx-react.git"
+  },
+  "keywords": [
+    "promise"
+  ],
+  "author": "david muindi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Muth80/alx-react/issues"
+  },
+  "homepage": "https://github.com/Muth80/alx-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "image-webpack-loader": "^8.1.0",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
