@@ -1,0 +1,72 @@
+body {
+  background-color: white;
+  color: black; /* Change the text color to black */
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.App-logo {
+height: 120px; /* Reduce the height to make the logo smaller */
+pointer-events: none;
+position: fixed; /* Fix the logo in place */
+left: 20px; /* Adjust the left position to move the logo to the left */
+top: 20px; /* Optionally, adjust the top position if needed */
+}
+
+.App-header {
+  border-bottom: 0px solid red; 
+}
+
+/* Style the text with red color */
+.App-header-text {
+margin-bottom: 80px; /* Add margin to space it from the body */
+color: red; /* Make the text red */
+}
+
+.App-body {
+  text-align: left;
+  padding: 5px; /* Reduce the padding between the text and the body */
+  margin-top: 5px; /* Reduce the margin between the header and the body */
+}
+/* Style the text with black color */
+.App-body-text {
+  text-align: left; /* Set text alignment to left */
+  padding: 10px; /* Reduce the padding for spacing */
+  color: black; /* Set the text color to black */
+}
+
+.App-footer {
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px; /* Add padding for space between the body and footer */
+}
+
+/* Style the text with black color */
+.App-footer-text {
+color: black; /* Make the text black */
+}
+.App-header {
+  border-bottom: 1px solid red; 
+}
+
+.App-footer {
+  border-top: 1px solid red; 
+}
+
+#root {
+  background-color: white;
+}
