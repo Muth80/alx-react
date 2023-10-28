@@ -1,0 +1,22 @@
+/* Login.css */
+
+/* Styles for the Login component */
+.App-body {
+  text-align: left;
+  padding: 10px; /* Adjust the padding */
+  margin-top: 20px; /* Adjust the margin */
+}
+
+.App-body-text {
+  text-align: left;
+  padding: 10px;
+  color: black;
+}
+
+/* Add spacing between "Email," "Password," and "OK" elements */
+label[for="email"],
+label[for="password"],
+button[type="submit"] {
+  margin-bottom: 10px;
+}
+

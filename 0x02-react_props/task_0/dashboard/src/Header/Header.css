@@ -1,0 +1,66 @@
+/* Header.css */
+
+body {
+  background-color: white;
+  color: black;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0; /* Remove default body margin */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.App-logo {
+  height: 70px; /* Adjust the logo height */
+  pointer-events: none;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+.App-header {
+  border-bottom: 1px solid red; /* Add a red border at the bottom of the header */
+}
+
+.App-header-text {
+  margin-bottom: 20px; /* Adjust the margin */
+  color: red;
+}
+
+.App-body {
+  text-align: left;
+  padding: 10px; /* Adjust the padding */
+  margin-top: 20px; /* Adjust the margin */
+}
+
+.App-body-text {
+  text-align: left;
+  padding: 10px;
+  color: black;
+}
+
+/* Add spacing between "Email," "Password," and "OK" elements */
+label[for="email"],
+label[for="password"],
+button[type="submit"] {
+  margin-bottom: 10px;
+}
+
+footer {
+  border-top: 1px solid red;
+}
+
+#root {
+  background-color: white;
+}
+
