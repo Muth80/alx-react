@@ -1,12 +1,13 @@
 body {
   background-color: white;
-  color: black; /* Change the text color to black */
+  color: black;
   text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0; /* Remove default body margin */
 }
 
 .App {
@@ -18,55 +19,46 @@ body {
 }
 
 .App-logo {
-height: 120px; /* Reduce the height to make the logo smaller */
-pointer-events: none;
-position: fixed; /* Fix the logo in place */
-left: 20px; /* Adjust the left position to move the logo to the left */
-top: 20px; /* Optionally, adjust the top position if needed */
+  height: 70px; /* Adjust the logo height */
+  pointer-events: none;
+  position: fixed;
+  left: 20px;
+  top: 20px;
 }
 
 .App-header {
-  border-bottom: 0px solid red; 
+  border-bottom: 1px solid red; /* Add a red border at the bottom of the header */
 }
 
-/* Style the text with red color */
 .App-header-text {
-margin-bottom: 80px; /* Add margin to space it from the body */
-color: red; /* Make the text red */
+  margin-bottom: 20px; /* Adjust the margin */
+  color: red;
 }
 
 .App-body {
   text-align: left;
-  padding: 5px; /* Reduce the padding between the text and the body */
-  margin-top: 5px; /* Reduce the margin between the header and the body */
+  padding: 10px; /* Adjust the padding */
+  margin-top: 20px; /* Adjust the margin */
 }
-/* Style the text with black color */
+
 .App-body-text {
-  text-align: left; /* Set text alignment to left */
-  padding: 10px; /* Reduce the padding for spacing */
-  color: black; /* Set the text color to black */
+  text-align: left;
+  padding: 10px;
+  color: black;
 }
 
-.App-footer {
-text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 10px; /* Add padding for space between the body and footer */
+/* Add spacing between "Email," "Password," and "OK" elements */
+label[for="email"],
+label[for="password"],
+button[type="submit"] {
+  margin-bottom: 10px;
 }
 
-/* Style the text with black color */
-.App-footer-text {
-color: black; /* Make the text black */
-}
-.App-header {
-  border-bottom: 1px solid red; 
-}
-
-.App-footer {
-  border-top: 1px solid red; 
+footer {
+  border-top: 1px solid red;
 }
 
 #root {
   background-color: white;
 }
+

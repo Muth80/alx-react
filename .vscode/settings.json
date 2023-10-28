@@ -3,6 +3,7 @@
         "anymatch",
         "argparse",
         "Holberton",
+        "listitem",
         "picomatch"
     ]
 }
