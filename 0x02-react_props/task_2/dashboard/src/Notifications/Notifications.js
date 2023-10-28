@@ -1,6 +1,7 @@
 import React from 'react'
 import './Notifications.css'
-import closeIcon from './close-icon.png';
+import closeIcon from './close-icon.png'
+import NotificationItem from './NotificationItem'
 
 function Notifications() {
     return (
@@ -16,11 +17,12 @@ function Notifications() {
             </button>
 
             <ul>
-                <li data-priority='default'>New course available</li>
-                <li data-priority='urgent'>New resume available</li>
-                <li 
-                    dangerouslySetInnerHTML={{ __html: getLatestNotification() }}
-                ></li>
+                <NotificationItem priority='default'>New course available</NotificationItem>
+                <NotificationItem priority='urgent'>New resume available</NotificationItem>
+                <NotificationItem 
+                    type='html'
+                    html={{ __html: getLatestNotification() }}
+                />
             </ul>
         </div>
     )
