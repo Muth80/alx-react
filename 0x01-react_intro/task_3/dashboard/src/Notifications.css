@@ -1,0 +1,23 @@
+/* Notifications.css */
+
+.Notifications {
+  border: 2px dashed red;
+  padding: 10px;
+  width: fit-content;
+  margin: 15px 0;
+}
+
+.Notifications {
+  position: relative;
+  /* Add any other styles you have for this */
+}
+
+.Notifications ul li[data-priority="default"] {
+  color: blue;
+}
+
+.Notifications ul li[data-priority="urgent"] {
+  color: red;
+}
+
+/* Include other styles if needed */
